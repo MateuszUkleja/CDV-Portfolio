@@ -1,0 +1,91 @@
+#skills{
+    background-color: black;
+    color: white;
+    padding: 80px 0;
+}
+
+.skill-title{
+    margin-bottom: 70px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.skill-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    color: black;
+}
+
+.skill-col{
+    background-color: white;
+    width: 40%;
+    border-radius: 25px;
+}
+.skills-tree{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+.skill-col-title{
+    text-align: center;
+    margin: 20px 0;
+    font-size: 30px;
+    font-weight: 900;
+    color: #ff004f;
+}
+.skill-list p{
+    margin: 15px 0 0 0;
+    padding: 0;
+    font-size: 22px;
+}
+.skill-list span{
+    font-size: 16px;
+    color: rgb(149, 149, 149);
+}
+
+@media screen and (max-width: 1024px) {
+    .skill-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skill-col{
+        width: 60%;
+    }
+    .skill-col:first-child{
+        margin-bottom: 60px;
+    }
+    .skill-list p{
+        
+        font-size: 28px;
+    }
+    .skill-list span{
+        font-size: 20px;
+    }
+    .skill-col-title{
+        font-size: 35px;
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .skills-tree{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .skill-col{
+        width: 55%;
+    }
+    .skill-list p{
+        
+        font-size: 26px;
+    }
+    .skill-list span{
+        font-size: 18px;
+    }
+    .skill-col-title{
+        font-size: 32px;
+        margin-top: 28px;
+    }
+}

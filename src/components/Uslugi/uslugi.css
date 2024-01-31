@@ -1,0 +1,122 @@
+#uslugi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: #101010;
+}
+.uslugi-title{
+    text-align: center;
+    padding: 50px 0;
+    font-size: 50px;
+}
+.uslugi-col{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+.service-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    width: 20%;
+    border-radius: 25px;
+    border: 2px solid #ff004f;
+    color: black;
+}
+
+.service-title{
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight:  bold;
+    text-align: center;
+    color: #ff004f;
+}
+.service-description{
+    text-align: center;
+    margin: 10px;
+    font-size: 14px;
+   
+}
+
+.service-price{
+    font-size: 28px;
+}
+
+.service-card button{
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    border: none;
+    transition: all 0.5s;
+}
+.add-btn{
+    background-color: #00ff66;
+}
+.remove-btn{
+    background-color: #ff004f;
+}
+.calculator{
+    margin-bottom: 50px;
+    background-color: #ff004f;
+    border-radius: 20px;
+}
+.calculator h3{
+    margin: 10px 20px;
+    font-size: 40px;
+}
+
+@media screen and (max-width: 1024px){
+    .uslugi-col{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .service-card{
+        margin-bottom: 20px;
+        width: 50%;
+    }
+    .service-title{
+        font-size: 30px;
+    }
+    .service-description{
+        
+        font-size: 20px;
+       
+    }
+    
+    .service-price{
+        font-size: 30px;
+    }
+    
+    .service-card button{
+        padding: 10px 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .service-title{
+        font-size: 20px;
+    }
+    .service-description{
+        
+        font-size: 14px;
+       
+    }
+    
+    .service-price{
+        font-size: 22px;
+    }
+    
+    .service-card button{
+        padding: 5px 30px;
+    }
+    .calculator h3{
+        margin: 10px 20px;
+        font-size: 20px;
+    }
+}
