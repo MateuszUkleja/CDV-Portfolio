@@ -14,7 +14,7 @@ function About() {
 			<div className='container'>
 				<div className='about-row'>
 					<div className='about-col-1'>
-						<img src={aboutImg}></img>
+						<img src={aboutImg} alt='obrazek'></img>
 					</div>
 					<div className='about-col-2'>
 						<h1 className='sub-title'>O Mnie</h1>
@@ -76,8 +76,10 @@ function About() {
 							}`}>
 							<ul>
 								<li>
-									<span>Program Frontend w Praktyce
-kurs organizowany przez firmę Better Call JavaScript</span>
+									<span>
+										Program Frontend w Praktyce kurs organizowany przez firmę
+										Better Call JavaScript
+									</span>
 									<br></br>Stycze 2024 - Obecnie
 								</li>
 								<li>
